@@ -1,0 +1,165 @@
+C:\project\OnlineStore-master\OnlineStore.Services\obj\Debug\OnlineStore.Services.csprojAssemblyReference.cache
+C:\project\OnlineStore-master\OnlineStore.Services\obj\Debug\OnlineStore.Services.csproj.CoreCompileInputs.cache
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Services.dll.config
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Services.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Services.pdb
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.DataLayer.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.EntityFramework.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Models.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Providers.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Identity.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\EntityFramework.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Newtonsoft.Json.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.Mvc.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Owin.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.Razor.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.DataLayer.pdb
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.DataLayer.dll.config
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.EntityFramework.pdb
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.EntityFramework.dll.config
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Models.pdb
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Models.dll.config
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Providers.pdb
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Providers.dll.config
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Identity.pdb
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Identity.dll.config
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\EntityFramework.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Newtonsoft.Json.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.Mvc.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.Razor.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\project\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\project\OnlineStore-master\OnlineStore.Services\obj\Debug\OnlineStore.Services.csproj.CopyComplete
+C:\project\OnlineStore-master\OnlineStore.Services\obj\Debug\OnlineStore.Services.dll
+C:\project\OnlineStore-master\OnlineStore.Services\obj\Debug\OnlineStore.Services.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Services.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Services.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Services.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.DataLayer.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.EntityFramework.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Models.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Providers.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Identity.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\EntityFramework.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Newtonsoft.Json.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.Mvc.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Owin.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.Razor.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.DataLayer.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.DataLayer.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.EntityFramework.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.EntityFramework.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Models.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Models.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Providers.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Providers.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Identity.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\OnlineStore.Identity.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\EntityFramework.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Newtonsoft.Json.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.Mvc.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.Razor.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\obj\Debug\OnlineStore.Services.csprojAssemblyReference.cache
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\obj\Debug\OnlineStore.Services.csproj.CoreCompileInputs.cache
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\obj\Debug\OnlineStore.Services.csproj.CopyComplete
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\obj\Debug\OnlineStore.Services.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Services\obj\Debug\OnlineStore.Services.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Services.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Services.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Services.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.DataLayer.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.EntityFramework.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Models.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Providers.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Identity.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\EntityFramework.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Newtonsoft.Json.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\System.Web.Mvc.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.Owin.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Owin.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\System.Web.Razor.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\System.Web.WebPages.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.DataLayer.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.DataLayer.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.EntityFramework.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.EntityFramework.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Models.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Models.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Providers.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Providers.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Identity.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\OnlineStore.Identity.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\EntityFramework.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Newtonsoft.Json.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\System.Web.Mvc.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.Owin.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\System.Web.Razor.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\System.Web.WebPages.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\obj\Debug\OnlineStore.Services.csproj.AssemblyReference.cache
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\obj\Debug\OnlineStore.Services.csproj.CoreCompileInputs.cache
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\obj\Debug\OnlineStore.Services.csproj.CopyComplete
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\obj\Debug\OnlineStore.Services.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Services\obj\Debug\OnlineStore.Services.pdb

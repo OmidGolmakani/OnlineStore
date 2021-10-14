@@ -1,0 +1,11 @@
+C:\project\New folder\OnlineStore-master\OnlineStore.UserWorks\bin\Release\OnlineStore.UserWorks.exe.config
+C:\project\New folder\OnlineStore-master\OnlineStore.UserWorks\bin\Release\OnlineStore.UserWorks.exe
+C:\project\New folder\OnlineStore-master\OnlineStore.UserWorks\bin\Release\OnlineStore.UserWorks.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore.UserWorks\obj\Release\OnlineStore.UserWorks.csprojAssemblyReference.cache
+C:\project\New folder\OnlineStore-master\OnlineStore.UserWorks\obj\Release\OnlineStore.UserWorks.frmReport.resources
+C:\project\New folder\OnlineStore-master\OnlineStore.UserWorks\obj\Release\OnlineStore.UserWorks.frmWorks.resources
+C:\project\New folder\OnlineStore-master\OnlineStore.UserWorks\obj\Release\OnlineStore.UserWorks.Properties.Resources.resources
+C:\project\New folder\OnlineStore-master\OnlineStore.UserWorks\obj\Release\OnlineStore.UserWorks.csproj.GenerateResource.cache
+C:\project\New folder\OnlineStore-master\OnlineStore.UserWorks\obj\Release\OnlineStore.UserWorks.csproj.CoreCompileInputs.cache
+C:\project\New folder\OnlineStore-master\OnlineStore.UserWorks\obj\Release\OnlineStore.UserWorks.exe
+C:\project\New folder\OnlineStore-master\OnlineStore.UserWorks\obj\Release\OnlineStore.UserWorks.pdb

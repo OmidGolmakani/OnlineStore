@@ -1,0 +1,33 @@
+C:\project\OnlineStore-master\OnlineStore.UserWorks\bin\Debug\OnlineStore.UserWorks.exe.config
+C:\project\OnlineStore-master\OnlineStore.UserWorks\bin\Debug\OnlineStore.UserWorks.exe
+C:\project\OnlineStore-master\OnlineStore.UserWorks\bin\Debug\OnlineStore.UserWorks.pdb
+C:\project\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.csprojAssemblyReference.cache
+C:\project\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.frmReport.resources
+C:\project\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.frmWorks.resources
+C:\project\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.Properties.Resources.resources
+C:\project\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.csproj.GenerateResource.cache
+C:\project\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.csproj.CoreCompileInputs.cache
+C:\project\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.exe
+C:\project\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.UserWorks\bin\Debug\OnlineStore.UserWorks.exe.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.UserWorks\bin\Debug\OnlineStore.UserWorks.exe
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.UserWorks\bin\Debug\OnlineStore.UserWorks.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.csprojAssemblyReference.cache
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.frmReport.resources
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.frmWorks.resources
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.Properties.Resources.resources
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.csproj.GenerateResource.cache
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.csproj.CoreCompileInputs.cache
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.exe
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.UserWorks\bin\Debug\OnlineStore.UserWorks.exe.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.UserWorks\bin\Debug\OnlineStore.UserWorks.exe
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.UserWorks\bin\Debug\OnlineStore.UserWorks.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.csproj.AssemblyReference.cache
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.frmReport.resources
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.frmWorks.resources
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.Properties.Resources.resources
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.csproj.GenerateResource.cache
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.csproj.CoreCompileInputs.cache
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.exe
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.UserWorks\obj\Debug\OnlineStore.UserWorks.pdb

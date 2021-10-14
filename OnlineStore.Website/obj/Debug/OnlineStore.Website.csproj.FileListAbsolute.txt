@@ -1,0 +1,194 @@
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Website.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Website.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Website.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Antlr3.Runtime.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\AutoMapper.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Common.Logging.Core.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Common.Logging.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\EntityFramework.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\EntityFramework.SqlServer.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\ImageResizer.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\ImageResizer.Plugins.DiskCache.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\ImageResizer.Plugins.SimpleFilters.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.AspNet.Identity.Core.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.Cookies.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.Facebook.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.Google.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.OAuth.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.Twitter.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Web.Infrastructure.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Newtonsoft.Json.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.DataLayer.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.EntityFramework.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Identity.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Models.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Providers.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Services.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Owin.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Quartz.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Net.Http.Formatting.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Helpers.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Http.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Http.WebHost.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Mvc.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Optimization.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Razor.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.WebPages.Deployment.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.WebPages.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.WebPages.Razor.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\WebGrease.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.DataLayer.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.DataLayer.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.EntityFramework.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.EntityFramework.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Identity.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Identity.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Models.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Models.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Providers.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Providers.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Services.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\OnlineStore.Services.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\AutoMapper.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Common.Logging.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Common.Logging.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Common.Logging.Core.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Common.Logging.Core.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\EntityFramework.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\EntityFramework.SqlServer.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\ImageResizer.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\ImageResizer.Plugins.DiskCache.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\ImageResizer.Plugins.SimpleFilters.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Newtonsoft.Json.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Quartz.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Quartz.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Net.Http.Formatting.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Helpers.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Http.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Http.WebHost.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Mvc.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Razor.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.WebPages.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.WebPages.Deployment.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.WebPages.Razor.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\System.Web.Optimization.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Antlr3.Runtime.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.AspNet.Identity.Core.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.Facebook.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.Cookies.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.OAuth.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.Google.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.Twitter.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\obj\Debug\OnlineStore.Website.csprojAssemblyReference.cache
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\obj\Debug\OnlineStore.Website.csproj.CoreCompileInputs.cache
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\obj\Debug\OnlineStore.Website.csproj.CopyComplete
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\obj\Debug\OnlineStore.Website.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.Website\obj\Debug\OnlineStore.Website.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Website.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Website.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Antlr3.Runtime.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\AutoMapper.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Common.Logging.Core.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Common.Logging.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\EntityFramework.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\EntityFramework.SqlServer.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\ImageResizer.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\ImageResizer.Plugins.DiskCache.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\ImageResizer.Plugins.SimpleFilters.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.Google.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Web.Infrastructure.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Newtonsoft.Json.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.DataLayer.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.EntityFramework.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Identity.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Models.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Providers.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Services.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Owin.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Quartz.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Net.Http.Formatting.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Helpers.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Http.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Http.WebHost.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Mvc.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Optimization.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Razor.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.WebPages.Deployment.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.WebPages.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.WebPages.Razor.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\WebGrease.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.DataLayer.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.DataLayer.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.EntityFramework.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.EntityFramework.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Identity.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Identity.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Models.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Models.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Providers.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Providers.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Services.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\OnlineStore.Services.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\AutoMapper.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Common.Logging.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Common.Logging.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Common.Logging.Core.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Common.Logging.Core.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\EntityFramework.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\EntityFramework.SqlServer.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\ImageResizer.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\ImageResizer.Plugins.DiskCache.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\ImageResizer.Plugins.SimpleFilters.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Newtonsoft.Json.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Quartz.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Quartz.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Net.Http.Formatting.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Helpers.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Http.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Http.WebHost.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Mvc.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Razor.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.WebPages.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.WebPages.Deployment.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.WebPages.Razor.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\System.Web.Optimization.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Antlr3.Runtime.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.Google.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\obj\Debug\OnlineStore.Website.csproj.AssemblyReference.cache
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\obj\Debug\OnlineStore.Website.csproj.CoreCompileInputs.cache
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\obj\Debug\OnlineStore.Website.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.Website\obj\Debug\OnlineStore.Website.pdb

@@ -1,0 +1,34 @@
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.dll.config
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.dll
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\EntityFramework.dll
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\EntityFramework.xml
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.csprojAssemblyReference.cache
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.csproj.CoreCompileInputs.cache
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.csproj.CopyComplete
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.pdb
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.dll
+C:\project\OnlineStore-master\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.dll.config
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.pdb
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\EntityFramework.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\EntityFramework.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.csproj.CoreCompileInputs.cache
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.csproj.CopyComplete
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.dll
+C:\project\New folder\OnlineStore-master\OnlineStore-master\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.dll.config
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.pdb
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\bin\Debug\EntityFramework.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\bin\Debug\EntityFramework.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.csproj.AssemblyReference.cache
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.csproj.CoreCompileInputs.cache
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.dll
+D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.pdb
