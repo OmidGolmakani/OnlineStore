@@ -13,11 +13,12 @@ namespace OnlineStore.Website.Controllers
         //[Route("درباره-ما")]
         public ActionResult Index()
         {
-            var content = StaticContents.GetByName("AboutUs");
+            //var content = StaticContents.GetByName("AboutUs");
 
-            content.Content = HttpUtility.HtmlDecode(content.Content);
+            //content.Content = HttpUtility.HtmlDecode(content.Content);
 
             return View();
         }
+       
     }
 }

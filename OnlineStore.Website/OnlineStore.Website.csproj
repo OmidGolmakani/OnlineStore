@@ -1989,6 +1989,7 @@
     <Content Include="Views\Packages\Details.cshtml" />
     <Content Include="Views\Packages\List.cshtml" />
     <Content Include="Views\Cart\VerifyPayment.cshtml" />
+    <Content Include="Views\AboutUs\Test.cshtml" />
     <None Include="Views\Shared\_Success.cshtml" />
     <Compile Include="Areas\Admin\Controllers\OSUsersController.cs" />
     <Compile Include="Areas\Blog\BlogAreaRegistration.cs" />
