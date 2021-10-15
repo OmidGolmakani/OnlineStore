@@ -32,3 +32,15 @@ D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineS
 D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.csproj.CoreCompileInputs.cache
 D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.dll
 D:\Source\Web\Lashgari\OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.pdb
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.dll.config
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.dll
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\bin\Debug\OnlineStore.EntityFramework.pdb
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\bin\Debug\EntityFramework.dll
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\bin\Debug\EntityFramework.xml
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.csproj.AssemblyReference.cache
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.csproj.CoreCompileInputs.cache
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.csproj.CopyComplete
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.dll
+D:\Source\Web\Lashgari\Git-OnlineStore\OnlineStore.EntityFramework\obj\Debug\OnlineStore.EntityFramework.pdb

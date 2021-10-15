@@ -35,7 +35,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    
+
     <meta name="msvalidate.01" content="FACC6DE2B0F4EE9AA86539D386B20032" />
     <meta name="alexaVerifyID" content="65sGU9FV_wkdfKNBy0GLt-roAjk" />
     <meta name="enamad" content="934904601" />
@@ -115,336 +115,336 @@
     <meta name="theme-color" content="#ff3d00">
 
     <link href="/assets/font-awesome/font-awesome.min.css" rel="stylesheet" />
-    <link href="/assets/owl-carousel-v2/owl.carousel.min.css" rel="stylesheet" />
-    <link href="/assets/toastr/toastr.min.css" rel="stylesheet" />
-    <link href="/assets/animate/animate.min.css" rel="stylesheet" />
-    <link href="/assets/raty/jquery.raty.css" rel="stylesheet" />
+    <link href="/assets/owlCarousel2/owl.carousel.min.css" rel="stylesheet" />
+    <link href="/assets/owlCarousel2/owl.theme.default.min.css" rel="stylesheet" />
 
-    @* ToolTip *@
-    <link href="/assets/tooltipster-master/css/tooltipster.css" rel="stylesheet" />
-
-    <link href="/css/template.min.css?ver=@version" rel="stylesheet" />
+    <link href="/css/newStyle.css?ver=@version" rel="stylesheet" />
+    @*Bootstrap*@
+    <link href="/assets/bootstrap4/bootstrap.min.css" rel="stylesheet" />
 
     @RenderSection("Styles", false)
 
 
 </head>
 <body>
-    <header>
-      
-        <div class="header" style="background-color:">
-            <div class="static-header">
-                <div class="responsive-box">
-                    <div class="right-box">
-                        @(Html.Raw(String.Format(Request.RawUrl == "/" ? "<h1>{0}</h1>" : "<span>{0}</span>", StaticValues.WebsiteTitle)))
-                        @*<img src="~/images/logo.jpg" />*@
-                        <span class="separator">|</span>
-                        <span><span>تلفن:</span> @StaticValues.Phone</span>
-                    </div>
-                    <div class="left-box">
-                        <ul class="left-menu">
-                            <li class="highlight">
-                                <a href="/SpecialOffers"><i class="fa fa-certificate"></i>تخفیف های ویژه</a>
-                                <span class="separator">|</span>
-                            </li>
-                            <li>
-                                <a href="/TrackOrder"><i class="fa fa-map-marker"></i>پیگیری سفارش</a>
-                                <span class="separator">|</span>
-                            </li>
-                            <li>
-                                <a href="/Blog"><i class="fa fa-pencil"></i>بلاگ</a>
-                                <span class="separator">|</span>
-                            </li>
-                            <li>
-                                <a href="/AboutUs"><i class="fa fa-file-text"></i>دربار ما</a>
-                                <span class="separator">|</span>
-                            </li>
-                            <li>
-                                <a href="/ContactUs"><i class="fa fa-phone"></i>تماس با ما</a>
-                            </li>
+    <div class="container-fluid">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-12 col-sm-12 col-md-3 p-0"> <img src="~/images/logo.png" width="190" /></div>
+                    <div class="menu col-12 col-sm-12 col-md-9 p-0">
+                        <ul>
+                            <li><a href="/">صفحه اصلی</a></li>
+                            <li><a href="/Shop">فروشگاه</a></li>
+                            <li><a href="/About">درباره ما</a></li>
+                            <li><a href="/ContacUs">تماس با ما</a></li>
+                            <div class="social-box">
+                                <i class="fa fa-phone fa-flip-horizontal" aria-hidden="true" style="margin:2px; 0 0 3px"></i>
+                                تلفن تماس : 23456789-051
+                            </div>
                         </ul>
                     </div>
-                    <div class="clear"></div>
                 </div>
             </div>
-            <div class="main-header">
-
-                <div class="responsive-box">
-                    <div class="logo">
-                        <a href="/">
-                            <img src="~/images/logo.jpg" />
-                            @*<img src="@StaticValues.Logo" alt="@StaticValues.WebsiteTitle" />*@
-                        </a>
-                    </div>
-                    <div class="search-box">
-                        @Html.Partial("/Views/Layouts/_SimpleSearch.cshtml")
-
-                    </div>
-                    @Html.Partial("_MiniCart")
-                    <div class="support">
-
-                        <a href="/Support">
-                            <i class="icon"><i class="fa fa-question-circle"></i></i>
-                            <div class="arrow">
-                                <i class="fa fa-chevron-down"></i>
+        </header>
+        <main>
+            <!-- Slider -->
+            <section class="slider-section">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol> <!-- End of Indicators -->
+                    <!-- Carousel Content -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active" style="background-image: url('https://cdn.pixabay.com/photo/2020/04/03/15/27/flower-meadow-4999277_960_720.jpg');">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Amazon Forest</h3>
+                                <p>Cool description for Amazon Forest.</p>
                             </div>
-                            <p>
-                                راهنمای مشتریان
-                                <span>پاسخ سوالات شما</span>
-                            </p>
-                        </a>
-                        <div class="content-box">
-                            <div class="content">
-                                <p>راهنمای مشتریان:</p>
-                                <span>
-                                    <a href="tel:+985138407540" target="_blank">051 35412680</a>
-                                </span>
-                                <p>تماس سریع در تلگرام:</p>
-                                <span>
-                                    <a href="https://telegram.me/OnlineStore" target="_blank">@@behbudgostar</a>
-                                </span>
-                                <ul>
-                                    <li>
-                                        <a href="/TrackOrder"><i class="fa fa-angle-left"></i>پیگیری سفارش</a>
-                                    </li>
-                                    <li>
-                                        <a href="/Payment-Methods"><i class="fa fa-angle-left"></i>شیوه های پرداخت</a>
-                                    </li>
-                                    <li>
-                                        <a href="/Shipping-Methods"><i class="fa fa-angle-left"></i>نحوه حمل و تحویل کالا</a>
-                                    </li>
-                                    <li>
-                                        <a href="/Shipping-Cost"><i class="fa fa-angle-left"></i>نحوه محاسبه هزینه ی ارسال</a>
-                                    </li>
-                                    <li>
-                                        <a href="/Guarantee-Of-Origin"><i class="fa fa-angle-left"></i>ضمانت تطابق کالا با سایت</a>
-                                    </li>
-                                    <li>
-                                        <a href="/Return-Product"><i class="fa fa-angle-left"></i>امکان بازگرداندن کالا تا 10 روز</a>
-                                    </li>
-                                    <li>
-                                        <a href="/Privacy-Policy"><i class="fa fa-angle-left"></i>سیاست حفظ حریم خصوصی</a>
-                                    </li>
-                                </ul>
+                        </div> <!-- End of Carousel Item -->
+
+                        <div class="carousel-item" style="background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg');">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Bridge Picture</h3>
+                                <p>Awesome description for bridge.</p>
+                            </div>
+                        </div> <!-- End of Carousel Item -->
+
+                        <div class="carousel-item" style="background-image: url('https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736875_960_720.jpg');">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Flowers & Grass</h3>
+                                <p>Beauty of Flowers & Grass.</p>
+                            </div>
+                        </div> <!-- End of Carousel Item -->
+                    </div> <!-- End of Carousel Content -->
+                    <!-- Previous & Next -->
+                    <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                    <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                </div> <!-- End of Carousel -->
+            </section>
+            <!-- End of Slider -->
+            <!-- Description -->
+            <section class="descripton-section">
+                <div class="container">
+                    <div class="row my-4">
+                        <div class="desc-img col-12 col-sm-12 col-md-5">
+                            <div class="desc-img-box">
+                                <img src="https://iranwire.com/media/filer_public_thumbnails/filer_public/14/c9/14c9d8c9-7eb0-47d1-b473-ffa8f8842728/khlwchh-lwkhs-ndry.png__930x510_q85_box-0%2C34%2C720%2C406_crop_subsampling-2_upscale.png" alt="Alternate Text" />
                             </div>
                         </div>
-                    </div>
-                    <div class="account">
-                        <a href="/Login?ReturnUrl=@HttpUtility.UrlEncode(Request.RawUrl)">
-                            <i class="icon"><i class="fa fa-user"></i></i>
-                            <div class="arrow">
-                                <i class="fa fa-chevron-down"></i>
+                        <div class="desc-text col-12 col-sm-12 col-md-7">
+                            <div class="title-box text-center">
+                                <h5>
+                                    <span class="title-bofore"></span> توضیحات برند
+                                    <div class="title-after"></div>
+                                </h5>
                             </div>
-                            <p>
-                                حساب کاربری
-                                <span>ورود و ثبت نام</span>
-                            </p>
-                        </a>
-                        <div class="content-box">
-                            <div class="content">
-                                <div class="profile@(User.Identity.IsAuthenticated ? " authenticated" : String.Empty)">
-                                    <div class="profile-image">
-                                        <i class="fa fa-user"></i>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Description -->
+            <!-- Customers -->
+            <section class="customer-section">
+                <div class="container">
+                    <div class="row my-4">
+                        <div class="col-12">
+                            <div class="title-box text-center">
+                                <h5>
+                                    <span class="title-bofore"></span> مشتریان ما
+                                    <div class="title-after"></div>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <!-- TESTIMONIALS -->
+                            <section class="testimonials">
+                                <div class="container">
+
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="customers-testimonials" class="owl-carousel">
+
+                                                <!--TESTIMONIAL 1 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/spaghetti-with-carbonara-sauce_1216-324.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>شرکت تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 1 -->
+                                                <!--TESTIMONIAL 2 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/dishes-with-healthy-waffles_1220-367.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>شرکت تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 2 -->
+                                                <!--TESTIMONIAL 3 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/top-view-of-tasty-noodles-with-prawns_1203-1769.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>شرکت تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 3 -->
+                                                <!--TESTIMONIAL 4 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/burguer-with-garnish_1088-72.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>شرکت تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 4 -->
+                                                <!--TESTIMONIAL 5 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/delicious-pastry-with-chicken_1203-1616.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>شرکت تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 5 -->
+                                            </div>
+                                        </div>
                                     </div>
-                                    @if (!User.Identity.IsAuthenticated)
-                                    {
-                                        <a class="btn-login" href="/Login?ReturnUrl=@HttpUtility.UrlEncode(Request.RawUrl)">ورود</a>
-                                        <p>
-                                            کاربر جدید هستید؟
-                                            <a href="/Register">ثبت نام</a>
-                                        </p>
-                                    }
-                                    else
-                                    {
-                                        var user = OSUsers.GetByID(User.Identity.GetUserId());
-                                        <p>
-                                            @(user.Firstname + " " + user.Lastname)
-                                        </p>
-                                        <a class="btn-logout" href="/Logout">خروج</a>
-                                    }
                                 </div>
-                                <div class="user-pages">
-                                    <p>
-                                        @if (!User.Identity.IsAuthenticated)
-                                        {
-                                            <span>میهمان عزیز</span>
-                                        }
-                                        else
-                                        {
-                                            <span>@(User.Identity.GetUserName()) عزیز</span>
-                                        }
-                                        ، خوش آمدید.
-                                    </p>
-                                    <ul>
-                                        <li><a href="/My-Account/My-Profile"><i class="fa fa-angle-left"></i>پروفایل کاربر</a></li>
-                                        <li><a href="/My-Account/My-Wishes"><i class="fa fa-angle-left"></i>آرزوهای من</a></li>
-                                        <li><a href="/My-Account/My-Orders"><i class="fa fa-angle-left"></i>سفارشات</a></li>
-                                        <li><a href="/TrackOrder"><i class="fa fa-angle-left"></i>پیگیری سفارش</a></li>
-                                        <li><a href="/Logout"><i class="fa fa-angle-left"></i>خروج</a></li>
-                                    </ul>
+                            </section>
+                            <!-- END OF TESTIMONIALS -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Customers -->
+            <!-- ShortLink -->
+            <section class="shortLink-section">
+                <div class="container">
+                    <div class="row my-4">
+                        <div class="col-12">
+                            <div class="title-box text-center">
+                                <h5>
+                                    <span class="title-bofore"></span> لینک های مرتبط
+                                    <div class="title-after"></div>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="item-box col-12 col-sm-4">
+                                    <a href="#">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEyElEQVR4nO2a34tVVRTHP2qIViZlNeXo4K96KbLsKTR9KaKizIzKf8Aioywogl56KAjCyenJSIJ6KBpUEiIjSAmiHxM6Y0GgZpQ6kpEzNI1FmjM97LU4xzPnnLv3Puvcueb9wuacu876ddbdP9ba+0AbbVzQmNJke13AauAeYDEwV+jHgR+Bj4GdwNEm+1U7uoCtwGlgvEE7DbwFzJ8UT2vAamCY5OXeA9YBS4BLpC0R2vskQRoG7psEf03xBDCGe6FeYIGHzEJgm8iMAY/X5l3NWAuclfZUhPxGXAD+BR4w9Ksp6CDp9jEvr3hWdJwErjLwq2l4B+f4dgNdO0XX2wa6moIO3ET2DzDPQF9XSt950Qu0235gqFMnxY2GOgGYaq0QWCFXi+6vUF23G+qsDYdx/9ZiQ53Xic5Dhjq9MB/4EBihcQbXam0IeBeYE/vyU4GBFniRqm1XbABuFgU/A50BcmrYGqF6O3G+j+FWplyUTYKL5LoPGAww3CoYBPbjKt6FRUxlAbhcrmsI63IK666cxZc5PN9xbok/JNfCeaAsAFeUPGsF5AUlS6sUABV6DBdV36YIkQnRq1iew7OUc4Ng0gNOlvC0OkwCMOxpbCbQnfrdLbSqqKJX/7yoXGA3rjst9eTvYeKktDnGsKHeO4S/N8awJkG+e3O/Cf8KaePAiRjDhnqXCf9nRQwXlQjrEBgq4clDHUlQrF71PWpFGwX+DuDfTD1DoIrey4T/SKjRGSIYkgHOwE1Qg9I2CS2LDuAV3BAbldYPvAxcXUFvHqbgNlNO+b6EYi4uAN+HCjbAo8CfFGd7I8DDxjZ/Fd1BK9KNIvS5oSPrSLbItwMrSc4FVgE75NkY8Iih3R9Eb9D23EoR2mHkxLW4rj5O+bbWMyQ94Roj219QspwXJUKxK0ARnsb9072UT2Cv43rHLKptp6dRmg0WBUCZrQJwr1zfyNCO4Q5C707RezIyVREVAOs6QOvxgRRtC27TYh7wZoreL9dF2KA0HW7WEPhLrpd68CpPSA5Shko9wCoAupu7PEVbTzIE1qfoynPQyHalOcBqCOi+/pMp2i5cndEFfJKib5Cr1QrUsCTOg1aCNxk5MQf4Q3Q+VMK3lmQZvNLI9p2i86MQof0iFLIb3AjPic7jwOyc57Nww2EceN7QrlaEX4UIHSEifWyA6SSB7cl53k2ysTnd0O4C0XsgROgUycxtiVuAM7iPHm5N0ZcJ/UyGbgGtCH/3FdBK8JixI4rXRH8fyWbmN0LbVIM9rQjPAtN8BDrFmYFGjJG4GPhJbKwBHpT7X/DLE2JwQmx4rQRaCe6pyRlwX39pkPvl/v4a7WlFeL0P8yph3lajQwDfkuwD7K3ZllaEt2Uf5CVC1llgEbam7rfUbKswGcoLgHUWWITdBfd1oDAAebvCeijqeyASi0PAp7iuebhmW0EBaFYPALirCTYgcAj8H84Es4gKgA6BPuDrDI81rW47QWeEe3Dj8gb5nfeBgjWtbjtaEU6YbCdzGWwmKq0Cfbi9+jSsaXXb0SHgdUY4SsRRUotjNm4ITHivvCEwgqsIfb8LOB+gKbDXRutL2H/h1SrtRZ8ATANewH1kONkOW7WjwKuUfw/RRhtttNHGBYf/AINgXJIV55fYAAAAAElFTkSuQmCC" />
+                                        <p>فروشگاه</p>
+                                    </a>
+                                </div>
+                                <div class="item-box col-12 col-sm-4">
+                                    <a href="#">
+                                        <img src="data:image/png;base64,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" />
+                                        <p>درباره ما</p>
+                                    </a>
+                                </div>
+                                <div class="item-box col-12 col-sm-4">
+                                    <a href="#">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAADGUlEQVR4nO2aPWsUQRjHf4R4jZ6NeFokATlQC8kHkAiKthaGNIpYKfoNVKwkkMRGv4QGlGihaKOCeNGIGAVNBG1SmKQLmBdjZWKxz+bm9vbu5mX37vZufjAsPPM8s8/8d2dndnbB4/F4PB5PN5MD7gDLwHaHlyVgQvq8w0QbJNbsMq4KsCTG43Q+Q5TvhB1CVbqFiv72tDCRtsAL0OoEWo0XwDG+AIwCX4ANKZ/Ftt+x7aZhOwuMAGvUnmtXgeGEckySqv7aCDACbEncU+AksFvKKeCZ1P2j/URwFqBA+crfrON3S3x+017DwVmAUcpXvhHhnXBbw/cdtYdTtJQaxKn1UZwXQmfleFfD914kph5bBjmoFywuzmhIm94B6+K/R8M3L75rJgmljPMQSNs/bfy7gIqNAJty1BkCe+W4YXGepmAjwIIcBzV8Q5+Ful4BJrOAySxRFxsBXsvxvIbvhUhMPUxmgUakOgsMEiS7CRyu43cU+EuwGjxmklDKJLIUfiUxc8Sv8grAvPi8NM8xVZwEGAZmqRxvv4CLwD4pl8Sm+swC59xzTwQrAfLApOK7TLCz+oHaD6IZYIzK7fb76M0eaWIswAHgu/isA1eBXqnbBVwheOquSSkBlyM+1yivIOeJHzY2s8C0To8jGAmQBz5J/VegaHHCkKK0sQ18JHh1VilhLsBbizyMBHgodT8I7gRXDgI/pc3JBNqzQVuAM2LfAA4lmEAR+CNtn06wXV20BZgT+/UUkrghbX9Loe1GaAswTfBgysXUuZIjGPM2Y9iVRBZCWca/DqvUEuAN8L5DbVXEDYGusXX9EOitYZ+hWrlOsVXhZ4FuxgtgEdMPTFF+/X0CHMlQfBUmz4B+YEWJCcsK0JeBeIjpr4kAU+L7XE7YB7wQ26MMxIOjAOFncVXtfrGtZiAeHGeB8KuQGtcTqWvn+FhM7oBwY3RKsT0W24MMxENMf8NfZYc0ggfEV/2KE/4qM5CB+BPiu6gax4nfcGxUQmxiWx0/pgqQExGWDBpQd3Jcd3ObGb8onU9jl8vj8Xg8Hk/G+A+hSpVycbpaawAAAABJRU5ErkJggg==" />
+                                        <p>تماس با ما</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="clear"></div>
                 </div>
-            </div>
-        </div>
-    </header>
-    <div class="main-box">
-        @RenderBody()
-    </div>
-    <footer>
-        <div class="footer-header">
-        </div>
-        <div class="footer">
-            <div class="responsive-box">
-                <div class="row contact-links">
-                    <div class="column address">
-                        <section>
-                            <h1>بهبود گستر سانیا</h1>
-                            <i class="small-logo"></i>
-                            <p>آدرس دفتر مرکزی:</p>
-                            <p><i class="fa fa-map-marker"></i>@StaticValues.Address</p>
-                            <p><i class="fa fa-home"></i>کد پستی: @StaticValues.PostalCode</p>
-                            <a href="@googleMap" class="map-link" target="_blank"><i class="fa fa-map-marker"></i> نمایش در نقشه گوگل</a>
-                        </section>
-                    </div>
-                    <div class="column tels">
-                        <section>
-                            <h1>اطلاعات تماس</h1>
-                            <ul>
-                                <li>
-                                    <i class="fa fa-paper-plane"></i>تماس سریع در تلگرام
-                                    <a href="https://telegram.me/OnlineStoreHelp" target="_blank">@@behbudgostar</a>
-                                </li>
-                                @*<li>
-                                    <i class="fa fa-phone"></i>مدیر فروش : آقای عرب پور
-                                    <a href="tel:+985138407540">+98-9150299600</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-phone"></i>کارشناس فروش : آقای نژاد حسینی 
-                                    <a href="tel:+985138407540">+98-9153242302</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-phone"></i> فروش آنلاین : آقای شیرکول
-                                    <a href="tel:+985138407540">+98-09124848409</a>
-                                </li>*@
-                                @*<li>
-                                    <i class="fa fa-phone"></i>انتقاد و پیشنهاد
-                                    <a href="tel:+985138407540">051-38477376</a>
-                                </li>*@
-                                <li>
-                                    <i class="fa fa-phone"></i>تلفن
-                                    <a href="tel:+985138407540">+98-51-35412680</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-envelope"></i>ایمیل
-                                    <a href="info@lasenor.ir">info@lasenor.ir</a>
-                                </li>
-                            </ul>
-                           @* <a href="/ContactUs" class="contact-link" target="_blank"><i class="fa fa-envelope"></i> تماس با مدیر سایت</a>*@
-                        </section>
-                    </div>
-                    <div class="column help">
-                        <section>
-                            <h1>راهنمای مشتریان</h1>
-                            <ul>
-                                <li>
-                                    <a href="/FAQ">پرسش های متداول</a>
-                                </li>
-                                <li>
-                                    <a href="/Payment-Methods">شیوه های پرداخت</a>
-                                </li>
-                                <li>
-                                    <a href="/Shipping-Methods">نحوه حمل و تحویل کالا</a>
-                                </li>
-                                <li>
-                                    <a href="/Shipping-Cost">نحوه محاسبه هزینه ی ارسال</a>
-                                </li>
-                                <li>
-                                    <a href="/Guarantee-Of-Origin">ضمانت تطابق کالا با سایت</a>
-                                </li>
-                                <li>
-                                    <a href="/Return-Product">امکان بازگرداندن کالا تا 10 روز</a>
-                                </li>
-                                <li>
-                                    <a href="/Privacy-Policy">سیاست حفظ حریم خصوصی</a>
-                                </li>
-                            </ul>
-                        </section>
-                    </div>
-                    <div class="column quicklinks">
-                        <section>
-                            <h1>دسترسی سریع</h1>
-                            <ul>
-                                <li>
-                                    <a href="/TrackOrder">پیگیری سفارش</a>
-                                </li>
-                                <li>
-                                    <a href="/Login?ReturnUrl=@HttpUtility.UrlEncode(Request.RawUrl)">ورود به سایت</a>
-                                </li>
-                                <li>
-                                    <a href="/Register">عضویت در سایت</a>
-                                </li>
-                                <li>
-                                    <a href="/Colleagues">جذب تامین کننده</a>
-                                </li>
-                                <li>
-                                    <a href="/Employments">استخدام دربهبود گستر</a>
-                                </li>
-                                <li>
-                                    <a href="/AboutUs">درباره ما</a>
-                                </li>
-                                <li>
-                                    <a href="/ContactUs">تماس با ما</a>
-                                </li>
-                            </ul>
-                        </section>
-                    </div>
-                </div>
-                <div class="row group-links">
-                    <div class="footer-groups">
-                        <nav>
-                            <h1>گروه محصولات</h1>
-                            @Html.Partial("/Views/Layouts/_GroupsLeafs.cshtml")
-                        </nav>
-                    </div>
-                    <div class="certificates-box">
-                        <div class="certificates">
-                            <div class="enamad">
-                                <a referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=231401&amp;Code=M91bvRGOs0xGdemyvrfh"><img referrerpolicy="origin" src="https://Trustseal.eNamad.ir/logo.aspx?id=231401&amp;Code=M91bvRGOs0xGdemyvrfh" alt="" style="cursor:pointer" id="M91bvRGOs0xGdemyvrfh"></a>
+            </section>
+            <!-- End of ShortLink -->
+            <!-- Trophy -->
+            <section class="trophy-section">
+                <div class="container">
+                    <div class="row my-4">
+                        <div class="col-12">
+                            <div class="title-box text-center">
+                                <h5>
+                                    <span class="title-bofore"></span> مدارک و جوایز
+                                    <div class="title-after"></div>
+                                </h5>
                             </div>
-                         </div>
+                        </div>
+                        <div class="col-12">
+                            <!-- TESTIMONIALS -->
+                            <section class="testimonials">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="trophy-testimonials" class="owl-carousel">
+
+                                                <!--TESTIMONIAL 1 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/spaghetti-with-carbonara-sauce_1216-324.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>مدارک تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 1 -->
+                                                <!--TESTIMONIAL 2 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/dishes-with-healthy-waffles_1220-367.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>مدارک تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 2 -->
+                                                <!--TESTIMONIAL 3 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/top-view-of-tasty-noodles-with-prawns_1203-1769.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>مدارک تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 3 -->
+                                                <!--TESTIMONIAL 4 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/burguer-with-garnish_1088-72.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>مدارک تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 4 -->
+                                                <!--TESTIMONIAL 5 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/delicious-pastry-with-chicken_1203-1616.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>مدارک تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 5 -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- END OF TESTIMONIALS -->
+                        </div>
                     </div>
-                    <div class="clear"></div>
+                </div>
+            </section>
+            <!-- End of Trophy -->
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="logo-footer col-12 col-sm-6 col-md-4">
+                        <img src="~/images/logo.png" width="250" />
+                    </div>
+                    <div class="fastAccess col-12 col-sm-6 col-md-4">
+                        <h3>دسترسی سریع</h3>
+                        <ul>
+                            <li><a href="#">فروشگاه</a></li>
+                            <li><a href="#">درباره ما</a></li>
+                            <li><a href="#">تماس با ما</a></li>
+                        </ul>
+                    </div>
+                    <div class="namad col-12 col-sm-6 col-md-4">
+                        <h3>نمادها</h3>
+                        <a referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=231401&amp;Code=M91bvRGOs0xGdemyvrfh"><img referrerpolicy="origin" src="https://Trustseal.eNamad.ir/logo.aspx?id=231401&amp;Code=M91bvRGOs0xGdemyvrfh" alt="" style="cursor:pointer" id="M91bvRGOs0xGdemyvrfh"></a>
+                    </div>
                 </div>
             </div>
-            <div class="copyright">
-                @Html.Partial("/Views/Layouts/_CopyRight.cshtml")
-            </div>
-        </div>
-        <a href="#" class="goto-top">
-            <i class="fa fa-caret-up"></i>
-            بالا
-        </a>
-    </footer>
-
+            <div class="copyRight col-12">تمامی حقوق معنوی و مادی این سایت برای آن محفوظ می باشد.</div>
+        </footer>
+    </div>
     <!--scripts-->
-    <script src="/js/jquery-1.11.3.min.js"></script>
-    <script src="/assets/owl-carousel-v2/owl.carousel.min.js"></script>
-    <script src="/assets/toastr/toastr.min.js"></script>
-    <script src="/assets/tooltipster-master/js/jquery.tooltipster.min.js"></script>
-    <script src="/assets/underscore/underscore-min.js"></script>
-    <script src="/assets/raty/jquery.raty.min.js"></script>
-    <script src="/assets/jquery.validate/jquery.validate.min.js"></script>
-    <script src="/assets/nicescroll/jquery.nicescroll.min.js"></script>
-    <script src="~/js/main.js"></script>
-    <script src="/js/main.min.js?ver=@version"></script>
-    <script src="/js/cart.min.js?ver=@version"></script>
-    <script src="/js/products.min.js?ver=@version"></script>
-    <script src="/js/simple-search.min.js?ver=@version"></script>
-    <script src="/js/newsletter-membership.min.js?ver=@version"></script>
+    @*<script src="/js/jquery-1.11.3.min.js"></script>*@
+    <script src="/assets/bootstrap4/jquery-3.5.1.slim.min.js"></script>
+    <script src="~/assets/owlCarousel2/owl.carousel.min.js"></script>
+    @*Bootstrap*@
+    <script src="/assets/bootstrap4/bootstrap.bundle.min.js"></script>
 
     <script>
         var isRial = @(ExtensionMethods.IsRial ? "true"  : "false");
@@ -512,21 +512,23 @@
     </script>
 
     @*<!--Start of Zopim Live Chat Script-->
-    <script type="text/javascript">
-        window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-        d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-        _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
-            $.src="//v2.zopim.com/?43KtFWybVFTUQC0g5BYwtrz8Yga7hJk4";z.t=+new Date;$.
-            type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
-    </script>
-    <!--End of Zopim Live Chat Script-->*@
+        <script type="text/javascript">
+            window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+            d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+            _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+                $.src="//v2.zopim.com/?43KtFWybVFTUQC0g5BYwtrz8Yga7hJk4";z.t=+new Date;$.
+                type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+        </script>
+        <!--End of Zopim Live Chat Script-->*@
 
 
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-74857354-1', 'auto');
         ga('send', 'pageview');
@@ -535,13 +537,77 @@
         var _paq = _paq || [];
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
-        (function() {
-            var u="//pw.online-store.com/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
+        (function () {
+            var u = "//pw.online-store.com/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
             _paq.push(['setSiteId', 1]);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
         })();
+    </script>
+    <script>
+        jQuery(document).ready(function ($) {
+            "use strict";
+            $('#customers-testimonials').owlCarousel({
+                loop: true,
+                center: true,
+                items: 3,
+                margin: 30,
+                autoplay: true,
+                dots: false,
+                nav: true,
+                autoplayTimeout: 8500,
+                smartSpeed: 450,
+                navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+                responsive: {
+                    0: {
+                        nav: false,
+                        items: 1
+                    },
+                    768: {
+                        nav: false,
+                        items: 2
+                    },
+                    1170: {
+                        items: 3
+                    }
+                }
+            });
+            $('#trophy-testimonials').owlCarousel({
+                loop: true,
+                center: true,
+                items: 5,
+                margin: 30,
+                autoplay: true,
+                dots: false,
+                nav: false,
+                autoplayTimeout: 8500,
+                smartSpeed: 450,
+                navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+                responsive: {
+                    0: {
+                        nav: false,
+                        items: 1
+                    },
+                    500: {
+                        nav: false,
+                        items: 2
+                    },
+                    768: {
+                        nav: true,
+                        items: 3
+                    },
+                    1170: {
+                        nav: true,
+                        items: 4
+                    },
+                    1280: {
+                        nav: true,
+                        items: 5
+                    }
+                }
+            });
+        });
     </script>
     <noscript><p><img src="//pw.online-store.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
     <a href="http://www.alexa.com/siteinfo/online-store.com" class="hide">

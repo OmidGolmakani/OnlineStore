@@ -10,14 +10,14 @@ namespace OnlineStore.Website.Controllers
 {
     public class AboutUsController : Controller
     {
-        [Route("درباره-ما")]
+        //[Route("درباره-ما")]
         public ActionResult Index()
         {
             var content = StaticContents.GetByName("AboutUs");
 
             content.Content = HttpUtility.HtmlDecode(content.Content);
 
-            return View(model: content);
+            return View();
         }
     }
 }

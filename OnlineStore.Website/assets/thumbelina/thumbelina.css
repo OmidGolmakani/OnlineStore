@@ -88,9 +88,10 @@
     .thumbelina-but.disabled:hover {
         background-color: #efefef;
         border: 1px solid #cfd8dc;
-        color: #ccc;
+        color: #4c4c4c;
         cursor: default;
         box-shadow: none;
+        border-radius: 5px;
     }
 
     /* Horizontal buttons. */

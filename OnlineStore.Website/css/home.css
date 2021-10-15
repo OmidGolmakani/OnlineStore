@@ -202,19 +202,31 @@
 }
 
 .small-box.latest-products li {
-    margin-top: 6px;
-    height: 80px;
+    margin: 10px 8px;
+   /* height: 80px;*/
 }
+    .small-box.latest-products li ul li {
+        border: 1px solid #e3e3e3;
+        border-radius: 5px;
+    }
+    .small-box.latest-products li ul li a{
+        display: grid;
+    }
+
 
     .small-box.latest-products li img {
         float: right;
-        margin-right: 4px;
+        height:250px;
+        width:250px;
+       /* margin-right: 4px;*/
     }
 
     .small-box.latest-products li .product-desc {
         float: right;
-        margin-right: 5px;
-        width: 190px;
+        border-top: 1px solid #e3e3e3;
+        padding: 5px 0;
+        width: 250px;
+        text-align: center;
     }
 
     .small-box.latest-products li .group-title {
@@ -225,19 +237,22 @@
 
     .small-box.latest-products li .product-title {
         display: block;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 18px;
         max-height: 38px;
         overflow: hidden;
         color: #455a64;
-        margin-top: 5px;
         min-height: 20px;
+        font-weight:bold;
+        padding:5px 10px;
     }
 
     .small-box.latest-products li .product-price {
         display: block;
         font-size: 14px;
         color: #ff3d00;
+        font-weight: bold;
+        padding: 5px 10px;
     }
 
         .small-box.latest-products li .product-price .original-price {
@@ -469,6 +484,7 @@
     height: 170px;
     background-position: center center;
     background-repeat: no-repeat;
+    border-radius:5px;
 }
 
     .home-banners-box .banner a {
@@ -1242,4 +1258,8 @@
     .home-banners-box .banner-bottom .banner-large {
         background-image: url(/images/StaticBanners/banner_b_526.jpg);
     }
+}
+.small-box .box-header .btn-prev, .small-box  .box-header .btn-next {
+    background: #ef5661 !important;
+    color: #ffffff !important;
 }

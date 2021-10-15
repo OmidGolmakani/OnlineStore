@@ -1,15 +1,526 @@
-﻿@model StaticContent
+﻿@{
+    var version = 4.7;
 
-@{
-    ViewBag.Title = "درباره ما";
-}
+    var emptyTitle = String.IsNullOrWhiteSpace(ViewBag.Title);
+    var title = (emptyTitle ? StaticValues.WebsiteTitle : ViewBag.Title);
+    var pageTitle = (emptyTitle ? title : title + " - " + StaticValues.WebsiteTitle);
 
-@Html.Partial("_PageTitle", new PageTitleSettings()
-{
-    BreadCrumbs = new List<BreadCrumbLink>() {
-        new BreadCrumbLink() { Title = StaticValues.HomeTitle, Link = "/" },
-        new BreadCrumbLink() { Title = "درباره ما", Link = "/درباره-ما" },
+    var ogType = (string)ViewBag.OGType ?? "article";
+
+    var ogDescription = (string)ViewBag.Description ?? String.Empty;
+
+    var ogKeywords = (string)ViewBag.Keywords ?? String.Empty;
+
+    var ogImage = (string)ViewBag.OGImage ?? (StaticValues.WebsiteUrl + "/images/small-logo.jpg");
+
+    string googleMap = StaticContents.GetByName("GoogleMap").Content;
+
+    var absoluteUri = String.Empty;
+
+    if (!String.IsNullOrWhiteSpace(ViewBag.CanonicalUrl))
+    {
+        absoluteUri = StaticValues.WebsiteUrl + ViewBag.CanonicalUrl;
     }
-})
+    else
+    {
+        absoluteUri = StaticValues.WebsiteUrl + Request.Url.AbsolutePath;
+    }
+}
+<!DOCTYPE html>
 
-@Html.Raw(Model.Content)
+<html lang="fa-IR">
+<head>
+    <title>@title</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <meta name="msvalidate.01" content="FACC6DE2B0F4EE9AA86539D386B20032" />
+    <meta name="alexaVerifyID" content="65sGU9FV_wkdfKNBy0GLt-roAjk" />
+    <meta name="enamad" content="934904601" />
+    <meta name="samandehi" content="396656022" />
+
+    <meta name="description" content="@ogDescription" />
+    <meta name="keywords" content="@ogKeywords" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="copyright" content="@StaticValues.WebsiteTitle &copy; @DateTime.Now.Year" />
+
+    <link rel="publisher" href="https://plus.google.com/+OnlineStoreWebsite" />
+    <meta name="application-name" content="@StaticValues.WebsiteTitle" />
+
+    <meta property="og:title" content="@title" />
+    <meta property="og:type" content="@ogType" />
+    <meta property="og:image" content="@ogImage" />
+    <meta property="og:url" content="@absoluteUri" />
+    <meta property="og:description" content="@ogDescription" />
+    <meta property="og:site_name" content="@StaticValues.WebsiteTitle" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="@title" />
+    <meta name="twitter:image" content="@ogImage" />
+    <meta name="twitter:description" content="@ogDescription" />
+
+    @if (ViewBag.NoIndex == true)
+    {
+        <meta name="robots" content="noindex,nofollow" />
+    }
+    else
+    {
+        <meta name="robots" content="index,follow" />
+    }
+
+    @if (ViewBag.HasPaging == true)
+    {
+        var originalUrl = StaticValues.WebsiteUrl + ViewBag.OriginalUrl;
+
+        var nextpage = (int?)ViewBag.Nextpage;
+        var prevpage = (int?)ViewBag.Prevpage;
+
+
+        if (prevpage.HasValue)
+        {
+            <link rel="prev" href="@(originalUrl + "/" + prevpage.Value)">
+        }
+
+        if (nextpage.HasValue)
+        {
+            <link rel="next" href="@(originalUrl + "/" + nextpage.Value)">
+        }
+    }
+
+    <link rel="canonical" href="@absoluteUri" />
+    <link rel="alternate" hreflang="fa" href="@absoluteUri" />
+
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+
+    @*
+        <link rel="manifest" href="/favicon/manifest.json">*@
+    <meta name="msapplication-TileColor" content="#ff3d00">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ff3d00">
+
+    <link href="/assets/font-awesome/font-awesome.min.css" rel="stylesheet" />
+    <link href="/assets/owlCarousel2/owl.carousel.min.css" rel="stylesheet" />
+    <link href="/assets/owlCarousel2/owl.theme.default.min.css" rel="stylesheet" />
+
+    <link href="/css/newStyle.css?ver=@version" rel="stylesheet" />
+    @*Bootstrap*@
+    <link href="/assets/bootstrap4/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/buguetteBox/baguetteBox.min.css" rel="stylesheet" />
+
+    @RenderSection("Styles", false)
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-12 col-sm-12 col-md-3 p-0"> <img src="~/images/logo.png" width="190" /></div>
+                    <div class="menu col-12 col-sm-12 col-md-9 p-0">
+                        <ul>
+                            <li><a href="/">صفحه اصلی</a></li>
+                            <li><a href="/Shop">فروشگاه</a></li>
+                            <li><a href="/About">درباره ما</a></li>
+                            <li><a href="/ContacUs">تماس با ما</a></li>
+                            <div class="social-box">
+                                <i class="fa fa-phone fa-flip-horizontal" aria-hidden="true" style="margin:2px; 0 0 3px"></i>
+                                تلفن تماس : 23456789-051
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- Gallery -->
+            <section class="gallery-section">
+                <div class="container">
+                    <div class="row my-4">
+                        <div class="col-12">
+                            <div class="title-box text-center">
+                                <h5>
+                                    <span class="title-bofore"></span> گالری تصاویر
+                                    <div class="title-after"></div>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-container">
+                        <div class="tz-gallery">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg" alt="Park">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg" alt="Traffic">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Gallery -->
+            <!-- Description -->
+            <section class="descripton-section">
+                <div class="container">
+                    <div class="row my-4">
+                        <div class="col-12">
+                            <div class="title-box text-center">
+                                <h5>
+                                    <span class="title-bofore"></span> درباره ما
+                                    <div class="title-after"></div>
+                                </h5>
+                            </div>
+                        </div>
+                        <div>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد <br />.</p>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Description -->
+            <!-- Trophy -->
+            <section class="trophy-section">
+                <div class="container">
+                    <div class="row my-4">
+                        <div class="col-12">
+                            <div class="title-box text-center">
+                                <h5>
+                                    <span class="title-bofore"></span> مدارک و جوایز
+                                    <div class="title-after"></div>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <!-- TESTIMONIALS -->
+                            <section class="testimonials">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="trophy-testimonials" class="owl-carousel">
+
+                                                <!--TESTIMONIAL 1 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/spaghetti-with-carbonara-sauce_1216-324.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>مدارک تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 1 -->
+                                                <!--TESTIMONIAL 2 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/dishes-with-healthy-waffles_1220-367.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>مدارک تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 2 -->
+                                                <!--TESTIMONIAL 3 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/top-view-of-tasty-noodles-with-prawns_1203-1769.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>مدارک تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 3 -->
+                                                <!--TESTIMONIAL 4 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/burguer-with-garnish_1088-72.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>مدارک تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 4 -->
+                                                <!--TESTIMONIAL 5 -->
+                                                <div class="item">
+                                                    <div class="shadow-effect">
+                                                        <img class="img-responsive" src="https://image.freepik.com/free-photo/delicious-pastry-with-chicken_1203-1616.jpg" alt="">
+                                                        <div class="item-details">
+                                                            <h5>مدارک تست یک</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--END OF TESTIMONIAL 5 -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- END OF TESTIMONIALS -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Trophy -->
+            <!-- Map -->
+            <section class="descripton-section">
+                <div class="container">
+                    <div class="row my-4">
+                        <div class="col-12">
+                            <div class="title-box text-center">
+                                <h5>
+                                    <span class="title-bofore"></span> نقشه
+                                    <div class="title-after"></div>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <!--The div element for the map -->
+                    <div id="map" style="width:100%;height:350px"></div>
+                </div>
+            </section>
+            <!-- End of Map -->
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="logo-footer col-12 col-sm-6 col-md-4">
+                        <img src="~/images/logo.png" width="250" />
+                    </div>
+                    <div class="fastAccess col-12 col-sm-6 col-md-4">
+                        <h3>دسترسی سریع</h3>
+                        <ul>
+                            <li><a href="#">فروشگاه</a></li>
+                            <li><a href="#">درباره ما</a></li>
+                            <li><a href="#">تماس با ما</a></li>
+                        </ul>
+                    </div>
+                    <div class="namad col-12 col-sm-6 col-md-4">
+                        <h3>نمادها</h3>
+                        <a referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=231401&amp;Code=M91bvRGOs0xGdemyvrfh"><img referrerpolicy="origin" src="https://Trustseal.eNamad.ir/logo.aspx?id=231401&amp;Code=M91bvRGOs0xGdemyvrfh" alt="" style="cursor:pointer" id="M91bvRGOs0xGdemyvrfh"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyRight col-12">تمامی حقوق معنوی و مادی این سایت برای آن محفوظ می باشد.</div>
+        </footer>
+    </div>
+    <!--scripts-->
+    @*<script src="/js/jquery-1.11.3.min.js"></script>*@
+    <script src="/assets/bootstrap4/jquery-3.5.1.slim.min.js"></script>
+    <script src="~/assets/owlCarousel2/owl.carousel.min.js"></script>
+    @*Bootstrap*@
+    <script src="/assets/bootstrap4/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/buguetteBox/baguetteBox.min.js"></script>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            const uluru = { lat: 36.43385240434586, lng: 59.41818933530226 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 18,
+                center: uluru,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+            });
+        }
+    </script>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+            async></script>
+
+    <script>
+        var isRial = @(ExtensionMethods.IsRial ? "true"  : "false");
+        var isAuthenticated = @(User.Identity.IsAuthenticated ? "true" : "false");
+    </script>
+
+    @RenderSection("Scripts", false)
+
+    <script type="application/ld+json">
+        {
+        "@@context": "http://schema.org",
+        "@@type": "Organization",
+        "name" : "@StaticValues.WebsiteTitle",
+        "alternateName" : "OnlineStore",
+        "url": "@StaticValues.WebsiteUrl",
+        "logo": "@(StaticValues.WebsiteUrl + "/images/template/logo.jpg")",
+        "contactPoint" : [{
+        "@@type" : "ContactPoint",
+        "telephone" : "+98-51-38407540",
+        "contactType" : "customer service",
+        "contactOption" : "TollFree",
+        "areaServed" : "IR",
+        "availableLanguage" : "Persian"
+        }],
+        "sameAs" : [
+
+
+        "https://plus.google.com/+OnlineStoreWebsite",
+        "https://www.youtube.com/c/OnlineStoreWebsite",
+        "https://twitter.com/OnlineStore",
+        "https://www.facebook.com/OnlineStore",
+        "https://instagram.com/OnlineStore",
+
+        "http://www.aparat.com/OnlineStore",
+        "http://www.cloob.com/name/OnlineStore",
+        "http://facenama.com/OnlineStore",
+        "http://www.hammihan.com/profile/OnlineStore",
+        "http://OnlineStore.iteg.ir/"
+
+        @*
+            "https://www.linkedin.com/company/OnlineStore",
+        *@
+
+        ],
+        "potentialAction": {
+        "@@type": "SearchAction",
+        "target": "@(StaticValues.WebsiteUrl + "/Search?text={search_term_string}")",
+        "query-input": {
+        "@@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueMaxlength": 250,
+        "valueName": "search_term_string"
+        }
+        }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+        "@@context": "http://schema.org",
+        "@@type": "WebSite",
+        "name": "الیاس سانیا",
+        "alternateName": "@StaticValues.WebsiteTitle",
+        "url": "@StaticValues.WebsiteUrl"
+        }
+    </script>
+
+    @*<!--Start of Zopim Live Chat Script-->
+        <script type="text/javascript">
+            window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+            d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+            _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+                $.src="//v2.zopim.com/?43KtFWybVFTUQC0g5BYwtrz8Yga7hJk4";z.t=+new Date;$.
+                type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+        </script>
+        <!--End of Zopim Live Chat Script-->*@
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-74857354-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//pw.online-store.com/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', 1]);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <script>
+        jQuery(document).ready(function ($) {
+            baguetteBox.run('.tz-gallery');
+            "use strict";
+            $('#trophy-testimonials').owlCarousel({
+                loop: true,
+                center: true,
+                items: 5,
+                margin: 30,
+                autoplay: true,
+                dots: false,
+                nav: false,
+                autoplayTimeout: 8500,
+                smartSpeed: 450,
+                navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+                responsive: {
+                    0: {
+                        nav: false,
+                        items: 1
+                    },
+                    500: {
+                        nav: false,
+                        items: 2
+                    },
+                    768: {
+                        nav: true,
+                        items: 3
+                    },
+                    1170: {
+                        nav: true,
+                        items: 4
+                    },
+                    1280: {
+                        nav: true,
+                        items: 5
+                    }
+                }
+            });
+        });
+    </script>
+    <noscript><p><img src="//pw.online-store.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+    <a href="http://www.alexa.com/siteinfo/online-store.com" class="hide">
+        <script type="text/javascript" src="http://xslt.alexa.com/site_stats/js/s/a?url=online-store.com" async defer></script>
+    </a>
+</body>
+</html>

@@ -248,7 +248,7 @@ $(function () {
     });
 
     var $miniCart = $('.mini-cart');
-    $('.btn-cart').on('click', function (e) {
+/*    $('.btn-cart').on('click', function (e) {
         e.preventDefault();
 
         if ($miniCart.hasClass('open')) {
@@ -259,29 +259,43 @@ $(function () {
             $miniCart.addClass('open');
             $basketContent.stop(true, false).slideDown(300);
         }
+    });*/
+    $('.mini-cart').on('mouseenter', function (e) {
+        e.preventDefault();
+        var $this = $(this);
+
+        $this.find('.basket-content').stop(true, false).slideDown(100);
+        $this.find('.basket-content .basket-box .arrow').css("top", "25px");
+    }).on('mouseleave', function (e) {
+        var $this = $(this);
+
+        $this.find('.basket-content').stop(true, false).slideUp(100);
+        $this.find('.basket-content .basket-box .arrow').css("top", "0px");
+    }).children('a').on('click', function (e) {
+        e.preventDefault();
     });
 
     $('.support, .account').on('mouseenter', function (e) {
         e.preventDefault();
         var $this = $(this);
 
-        $this.find('.content-box').stop(true, false).slideDown(300);
+        $this.find('.content-box').stop(true, false).slideDown(100);
     }).on('mouseleave', function (e) {
         var $this = $(this);
 
-        $this.find('.content-box').stop(true, false).slideUp(300);
+        $this.find('.content-box').stop(true, false).slideUp(100);
     }).children('a').on('click', function (e) {
         e.preventDefault();
     });
 
-    $body.on('click', function (e) {
+   /* $body.on('click', function (e) {
         var $this = $(e.target);
 
         if ($this.hasClass('.mini-cart') || $this.closest('.mini-cart').length == 0) {
             $miniCart.removeClass('open');
             $basketContent.stop(true, false).slideUp(300);
         }
-    });
+    });*/
 
     var $megamenubg = $('.mega-menu-bg'),
         $megamenubox = $('.mega-menu-box'),
@@ -320,9 +334,14 @@ $(function () {
 
         var $this = $(this),
             id = $this.data('id');
-
+        $submenus.css('display', 'block');
         $this.addClass('active').siblings('li').removeClass('active');
         $submenus.find('[data-id="' + id + '"]').addClass('active').siblings('.menu-submenu').removeClass('active');
+    }).on('mouseleave', function (e) {
+        e.preventDefault();
+        $submenus.css('display', 'none');
+        $('.mainlevels li').removeClass('active');
+        $('.submenus .menu-submenu').removeClass('active');
     }).on('click', 'li', function (e) {
         e.preventDefault();
 
